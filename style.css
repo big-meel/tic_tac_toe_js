@@ -1,0 +1,13 @@
+.title {
+    color: blue;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, auto));
+    grid-template-rows: repeat(3, minmax(150px, 250px));
+}
+
+.gameboard > div {
+    border: 3px solid blue;
+}
